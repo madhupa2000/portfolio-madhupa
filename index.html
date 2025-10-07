@@ -82,9 +82,11 @@
 
 							<li><a href="#" data-nav-section="about">About</a></li>
 							<li><a href="#" data-nav-section="skills">Skills</a></li>
-							<li><a href="#" data-nav-section="experience">Experience</a></li> <li><a href="#" data-nav-section="education">Education</a></li>
+							<li><a href="#" data-nav-section="experience">Experience</a></li>
+							<li><a href="#" data-nav-section="education">Education</a></li>
 							<li><a href="#" data-nav-section="projects">Projects</a></li>
-							<li><a href="#" data-nav-section="certifications">Certifications</a></li> <li><a href="#" data-nav-section="contact">Contact</a></li>
+							<li><a href="#" data-nav-section="certifications">Certifications</a></li>
+							<li><a href="#" data-nav-section="contact">Contact</a></li>
 
 						</ul>
 
@@ -301,78 +303,58 @@
 					</div>
 				</section>
 
-				<section class="colorlib-experience" data-section="experience">
+				<section class="colorlib-services" data-section="experience">
 					<div class="colorlib-narrow-content">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
 								data-animate-effect="fadeInLeft">
 								<span class="heading-meta">Career Highlights</span>
-								<h2 class="colorlib-heading animate-box">Work Experience</h2>
+								<h2 class="colorlib-heading">Work Experience</h2>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-									<ul class="timeline">
-										<li class="timeline-inverted">
-											<div class="timeline-badge color-1">
-												<i class="icon-server"></i>
-											</div>
-											<div class="timeline-panel">
-												<div class="timeline-heading">
-													<h3 class="timeline-title">Software Development Intern</h3>
-													<span class="company">Seroo IT Solutions | Kochi | April 2025 - May 2025</span>
-												</div>
-												<div class="timeline-body">
-													<ul>
-														[cite_start]<li>Developed a chatbot application using Python, HuggingFace, and Flask APIs, resulting in **40% faster query resolution**[cite: 18].</li>
-														[cite_start]<li>Implemented PostgreSQL database integration, successfully handling **10,000+ user records** with **99% uptime**[cite: 18].</li>
-														[cite_start]<li>Collaborated with a 5-person development team to deliver the project **2 weeks ahead of schedule**[cite: 19].</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="timeline-badge color-2">
-												<i class="icon-briefcase"></i>
-											</div>
-											<div class="timeline-panel">
-												<div class="timeline-heading">
-													<h3 class="timeline-title">Data Analyst Intern</h3>
-													<span class="company">NDTV | Delhi | May 2024 - June 2024</span>
-												</div>
-												<div class="timeline-body">
-													<ul>
-														[cite_start]<li>Processed **100,000+ voting records** using Python and SQL for real-time election coverage[cite: 20].</li>
-														[cite_start]<li>Created data visualizations and statistical reports with **99.9% accuracy** for live television broadcast[cite: 20].</li>
-														[cite_start]<li>Reduced data processing time by **50%** through automated ETL pipeline development[cite: 20].</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										
-										<li class="timeline-inverted">
-											<div class="timeline-badge color-3">
-												<i class="icon-lightbulb"></i>
-											</div>
-											<div class="timeline-panel">
-												<div class="timeline-heading">
-													<h3 class="timeline-title">AI-Powered Crop Advisory System (Selected Idea)</h3>
-													<span class="company">Smart India Hackathon 2025 | Team "Neeli"</span>
-												</div>
-												<div class="timeline-body">
-													<ul>
-														[cite_start]<li>Proposed an AI-powered crop advisory system integrating weather, soil, satellite, and IoT data[cite: 22].</li>
-														[cite_start]<li>Outlined a backend solution using Flask and MySQL with AI models (LSTM, LightGBM) for localized guidance[cite: 24].</li>
-														[cite_start]<li>Idea was selected to the next round of SIH 2025 for further evaluation[cite: 24].</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-									</ul>
+						<div class="row row-pt-md">
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-1">
+									<span class="icon">
+										<i class="icon-server"></i>
+									</span>
+									<div class="desc">
+										<h3>Software Development Intern (Seroo IT Solutions)</h3>
+										<p class="company-info">Kochi | Apr 2025 - May 2025</p>
+										<p>Developed a chatbot using Python, HuggingFace, and Flask, resulting in **40% faster query resolution**. Implemented PostgreSQL handling **10,000+ records** with **99% uptime**.</p>
+										<p id="project-tool">Python | Flask | HuggingFace | PostgreSQL</p>
+									</div>
 								</div>
 							</div>
+
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-2">
+									<span class="icon">
+										<i class="icon-briefcase"></i>
+									</span>
+									<div class="desc">
+										<h3>Data Analyst Intern (NDTV)</h3>
+										<p class="company-info">Delhi | May 2024 - June 2024</p>
+										<p>Processed **100,000+ voting records** using Python/SQL. Created reports with **99.9% accuracy**. Reduced processing time by **50%** via automated ETL pipeline.</p>
+										<p id="project-tool">Python | SQL | ETL | Data Visualization</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 text-center animate-box">
+								<div class="services color-3">
+									<span class="icon">
+										<i class="icon-lightbulb"></i>
+									</span>
+									<div class="desc">
+										<h3>AI Crop Advisory System (SIH 2025 - Selected Idea)</h3>
+										<p class="company-info">Smart India Hackathon | Team "Neeli"</p>
+										<p>Proposed an AI system integrating weather, soil, and IoT data. Outlined a backend solution using Flask/MySQL with **LSTM** and **LightGBM** models.</p>
+										<p id="project-tool">AI/ML | LSTM | LightGBM | Flask/MySQL</p>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</section>
@@ -582,9 +564,7 @@
 										<i class="icon-map"></i>
 									</div>
 									<div class="colorlib-text">
-										<div class="addresses">
-											<p>Kerala, India</p>
-										</div>
+										<p>Kerala, India</p>
 									</div>
 								</div>
 
